@@ -22,6 +22,9 @@ function draw() {
   // rotateZ(time / 1234);  
   
   text('hello', 0, 0)
-  
- 
+}
+
+/* full screening will change the size of the canvas */
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

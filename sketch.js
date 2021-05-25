@@ -1,7 +1,7 @@
 let font
 
 function setup() {
-  createCanvas(400, 400, WEBGL);
+  createCanvas(windowWidth, windowHeight, WEBGL);
 }
 
 function preload() {
